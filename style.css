@@ -1,0 +1,12 @@
+body{
+    border: 3px solid #00000049;
+    text-align: center;
+    padding-top: 150px;
+}
+#play{
+    cursor: pointer;
+
+}
+#play:hover{
+ border:  inset 1px;
+}

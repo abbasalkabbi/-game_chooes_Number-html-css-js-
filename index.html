@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>number</title>
+</head>
+<body>
+    <!--tihs is here content-->
+    <div>
+        <h2>your a score </h2>
+        <h1 id="score" >0</h1>
+        <h1>chooes a number  from 1 to 10</h1>
+        <input  type="number" id="player" placeholder="your number  " name="player" >  
+        <p style="display: none;" id="write_number"> place write number up</p>
+        <h1> here  Answer computer</h1>
+        <input type="number" disabled="ture" placeholder="Answer computer" id="answer_computer">
+        <br><br>
+        <button onclick="play()" id="play">play</button>
+        <p id="result"></p>
+        
+
+    </div>
+</body>
+<script src="code.js"></script>
+</html>
